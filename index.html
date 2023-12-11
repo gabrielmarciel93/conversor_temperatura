@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura - Gabriel Marciel</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<div class="gradient-background">
+		<div class="container">
+			<div class="outer-container">
+				<div class="social-icons">
+					<a href="https://www.linkedin.com/in/gabrielmarciel93/" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="https://gabrielmarciel93.github.io/projetoIntegrador/index.html" target="_blank"><i class="fas fa-globe"></i></a>
+					<a href="https://github.com/gabrielmarciel93" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="mailto:contato@gabrielmarciel.com.br?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+					<a href="https://wa.me/5521988755641123" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i>
+						</a>
+				</div>
+			</div>
+			<h2 align="center">Conversor de Temperatura</h2>
+			<label for="temperature">Digite a temperatura:</label><br>
+			<input type="number" id="temperature"><br>
+			
+			<label for="unit">Escolha a unidade:</label><br>
+			  <select id="unit">
+				<option value="celsius">Celsius</option>
+				<option value="fahrenheit">Fahrenheit</option>
+			  </select><br><br> 
+			  <button onclick="converterTemperatura()">Converter</button><br>
+			 
+			  <div id="result">
+			</div>
+		<br>
+		  <footer class="footerstyle">
+			<table align="center">
+	  
+				<tr>
+					<td>
+						<p align="center"> Criado por <a class="a-footer"
+								href="https://www.instagram.com/gabrielmarcieloficial/" target="_blank"><b>Gabriel
+									Marciel</b></a> no curso de
+							<a class="a-footer"
+								href=https://www.firjansenai.com.br/cursorio/portal/detalhe-do-curso/cursos_02/programador-front-end/48897/disponivel"
+								target="_blank"><b>Front-End</b></a> - <a class="a-footer"
+								href=https://www.firjansenai.com.br/cursorio/portal/index.php"
+								target="_blank"><b>SENAI/Maracanã</b></a> - <a class="a-footer"
+								href=" https://sammyfreitas.github.io/portfolioSite/" target="_blank"><b>Prof. Anthony
+									Freitas</b></a><br>
+							Todos os direitos reservados ©
+							<script>document.write(new Date().getFullYear())</script>
+						</p>
+					</td>
+				</tr>
+			</table>
+		</footer>
+	</div>
+
+  <script src="./js/script.js"></script>
+  
+</body>
+
+</html>
